@@ -1,0 +1,11 @@
+@import '../../styles/settings.scss';
+@import '../Button/Button.module.scss';
+
+.cardForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    align-items: center;
+}
