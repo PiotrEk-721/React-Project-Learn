@@ -1,6 +1,12 @@
 @use "sass:math";
 @import '../../styles/settings.scss';
 
+.list {
+  background-color: $color-light;
+    border-radius: $radius;
+    padding: $base-size * 1.5;
+}
+
 .column {
   flex-shrink: 0;
   width: calc(33% - 12px);
