@@ -36,7 +36,6 @@ const initialState = {
     { id: '8', columnId: '4', title: 'Gideon', isFavorite: false },
     { id: '9', columnId: '4', title: 'The Last Ten Second of Life', isFavorite: false },
   ],
-  favouriteCards: [],
   searchString: '',
   lists: [
     { id: '1', title: 'Things to do...', description: 'Interesting things I want to check out' },

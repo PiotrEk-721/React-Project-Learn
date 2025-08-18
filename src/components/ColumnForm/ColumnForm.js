@@ -1,8 +1,8 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { addColumn } from '../../redux/store.js';
-import styles from './ColumnForm.module.scss';
+import { addColumn } from '../../redux/columnRedux.js';
 import Button from '../Button/Button.js';
+import styles from './ColumnForm.module.scss';
 
 const ColumnForm = ({ listId }) => {
   const dispatch = useDispatch();

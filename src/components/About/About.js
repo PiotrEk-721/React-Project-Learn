@@ -1,9 +1,9 @@
-import styles from './About.module.scss';
 import PageTitle from '../PageTitle/PageTitle';
+import styles from './About.module.scss';
 
 const About = () => {
   return (
-    <div classNAme={styles.about}>
+    <div className={styles.about}>
       <PageTitle>About</PageTitle>
     </div>
   );

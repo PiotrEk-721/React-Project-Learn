@@ -1,8 +1,8 @@
 import { useSelector } from 'react-redux';
-import { getFilteredCards } from '../../redux/store';
-import styles from './Column.module.scss';
+import { getFilteredCards } from '../../redux/cardRedux.js';
 import Card from '../Card/Card.js';
 import CardForm from '../CardForm/CardForm.js';
+import styles from './Column.module.scss';
 
 const Column = ({ id, icon, title }) => {
   const cards = useSelector((state) => getFilteredCards(state, id));

@@ -1,9 +1,9 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { addCard } from '../../redux/store';
+import { addCard } from '../../redux/cardRedux.js';
+import Button from './../Button/Button.js';
+import TextInput from './../TextInput/TextInput.js';
 import styles from './CardForm.module.scss';
-import Button from './../Button/Button';
-import TextInput from './../TextInput/TextInput';
 
 const CardForm = ({ columnId }) => {
   const dispatch = useDispatch();

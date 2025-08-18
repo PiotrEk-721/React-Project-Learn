@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { updateSearchString } from '../../redux/store.js';
-import styles from './SearchForm.module.scss';
+import { updateSearchString } from '../../redux/searchStringRedux.js';
 import TextInput from '../TextInput/TextInput.js';
 import Button from '../Button/Button.js';
+import styles from './SearchForm.module.scss';
 
 const SearchForm = () => {
   const dispatch = useDispatch();

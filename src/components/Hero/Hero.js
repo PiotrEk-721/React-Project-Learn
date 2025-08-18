@@ -1,5 +1,5 @@
-import styles from './Hero.module.scss';
 import PageTitle from '../PageTitle/PageTitle';
+import styles from './Hero.module.scss';
 
 const Hero = () => {
   return (
