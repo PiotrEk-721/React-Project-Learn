@@ -4,8 +4,11 @@
 .listForm {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 10px;
     align-items: center;
+    max-width: $base-size * 35;
+    margin: ($base-size * 4) auto ($base-size * 2) auto;
 
     input {
         line-height: 1.3;
