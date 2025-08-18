@@ -1,0 +1,26 @@
+@import '../../styles/settings.scss';
+@import '../Button/Button.module.scss';
+
+.listForm {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+
+    input {
+        line-height: 1.3;
+        padding: $base-size;
+        margin: 0 $base-size $base-size $base-size;
+        border-radius: $radius;
+    }
+
+    span {
+        margin: 0 $base-size $base-size $base-size;
+    }
+}
+
+@media (max-width: 767px) {
+    .listForm {
+        flex-direction: column;
+    }
+}

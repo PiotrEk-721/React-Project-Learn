@@ -12,7 +12,6 @@ export const addColumn = (payload) => ({ type: ADD_COLUMN, payload });
 const columnsReducer = (statePart = [], action) => {
   switch (action.type) {
     case ADD_COLUMN:
-      console.log('Dodano kolumnę:', action.payload);
       return [...statePart, { ...action.payload, id: shortid() }];
     default:
       return statePart;
